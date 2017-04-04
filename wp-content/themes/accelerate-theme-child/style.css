@@ -21,12 +21,39 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+#primary-navigation {
+  width:30%;
+}
+
+#menu-top-nav {
+  display:flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  -webkit-box-pack:space-around;
+  -moz-box-pack:space-around;
+  -ms-flex-pack:space-around;
+  -webkit-justify-content:space-around;
+  -ms-flex-flow: row nowrap;
+  -webkit-flex-flow: row nowrap;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  font-size:.9em;
+  float:left;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
 .blog-post {
-    width:50%;
+    width:45%;
+    float:left;
 }
 
 .blog-post h4 {
@@ -41,8 +68,8 @@
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight:bold;
+    margin-bottom:7%;
 }
-
 .blog-post .read-more-link {
     font-size:16px;
     font-family:'Montserrat';
@@ -78,7 +105,7 @@
     text-align:center;
 }
 
-/*===Case Study===*/
+/*=== Case Study ===*/
 
 .case-study {
     margin-top:5%;
@@ -128,4 +155,257 @@
 
 .case-study-images img {
     margin-bottom:10%;
+}
+
+/*=== Contact Us ===*/
+
+.contact-us {
+  max-width: 680px;
+  margin:auto;
+}
+
+#nf-field-1-container {
+  float:left;
+  width:48%;
+}
+
+#nf-field-2-container {
+  float:right;
+  clear:none;
+  width:48%;
+}
+
+.nf-field .nf-field-label label {
+  font-weight: normal;
+  font-size:.9em;
+}
+
+#nf-field-4 {
+  background-color: #45ac9d;
+  color:white;
+  padding:2.5%;
+  width:30%;
+  font-family:'Montserrat';
+  float:right;
+}
+
+.nf-response-msg {
+  font-family: 'Montserrat';
+  padding: 1%;
+  text-align: center;
+}
+
+/* ==== About Page ==== */
+
+.about-site-content {
+  width:100%;
+}
+
+.about-top-img {
+  background-image: url("img/taxi-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 95%;
+  width:100%;
+  height:320px;
+  background-size:cover;
+}
+
+.about-top-img h1 {
+  text-align: center;
+  font-size:1.5em;
+  font-weight:normal;
+  font-family:'Open Sans';
+  width:100%;
+  margin:auto;
+  padding-top:6%;
+}
+
+.about-top-img span {
+  color:#45ac9d;
+}
+
+.about-intro {
+  margin:auto;
+  text-align:center;
+  font-weight:normal;
+}
+
+.about-intro h4 {
+  text-transform: uppercase;
+  font-size:1em;
+}
+
+.about-service-single {
+  margin-bottom:6%;
+  overflow:auto;
+}
+
+.about-services {
+  margin:auto;
+  max-width: 800px;
+}
+
+.about-service-right {
+  float:right;
+  width:70%;
+}
+
+.about-service-left {
+  float:left;
+  width:70%;
+}
+
+.about-image-left {
+  float:left;
+  width:30%;
+  position:relative;
+  top:12px;
+}
+
+.about-image-right {
+  float:right;
+  width:30%;
+  position:relative;
+  top:12px;
+}
+
+.contact-button {
+  background: none repeat scroll 0 0 #45ac9d;
+  color:white;
+  font-family:'Montserrat';
+  padding:1%;
+  width:20%;
+  float:right;
+  margin: auto 15% auto 2%;
+  text-align: center;
+}
+
+.about-closing h2 {
+  float:left;
+  margin: 1% 2% auto 15%;
+  text-align: left;
+}
+
+.about-closing {
+  margin:auto;
+  overflow:auto;
+  border-top:1px dotted #e3e1e1;
+  padding-top:40px;
+  max-width: 960px;
+}
+
+/* ==== 404 ==== */
+
+.error-page-wrapper{
+  background-image:url("img/404-img.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:67%;
+  margin:5% 1%;
+  float:left;
+  height:400px;
+  padding-bottom:60px;
+  position:relative;
+  right:80px;
+}
+
+.error-page-wrapper h2 {
+  -ms-transform: rotate(-18deg);
+  -webkit-transform: rotate(-18deg);
+  transform:rotate(-18deg);
+  font-family: 'Indie Flower', cursive;
+  color: #546e7a;
+  position:relative;
+  top:25px;
+  left:66px;
+  width:280px;
+}
+
+.error-page-wrapper a {
+  text-decoration:underline;
+}
+
+/* === Recent Tweets === */
+
+#secondary {
+  width:49%;
+  float:right;
+  margin-left:3%;
+}
+
+#secondary h4 {
+  font-size: 16px;
+  font-family:'Montserrat';
+  color:#a6a6a6;
+  text-transform: uppercase;
+  margin: 0 0 9% 0;
+}
+
+#pi_simpletwittertweets-2 {
+  padding-left:0px;
+}
+
+#pi_simpletwittertweets-2 .widget-title {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight:bold;
+  margin-bottom:4%;
+  line-height:1px;
+}
+
+.tweets {
+  list-style-type: none;
+  margin-left:0;
+}
+
+.tweets li {
+  padding-left:0px;
+  font-weight:normal;
+  font-family:'Open Sans';
+  font-size:1.2em;
+}
+
+.read-more-link {
+    font-size:16px;
+    font-family:'Montserrat';
+    font-weight: bold;
+    color:#45ac9d;
+    text-transform:uppercase;
+}
+
+/*==== Newsletter ====*/
+
+.newsletter {
+  margin:0.25em 0 1.4em 0;
+  text-align:center;
+}
+
+.mc4wp-form-fields {
+  margin:auto;
+}
+
+.mc4wp-form-fields label {
+  display: block;
+  width:100%;
+}
+
+.mc4wp-form-fields p:nth-child(3) input{
+  background-color: #45ac9d;
+  color:white;
+  font-family:'Montserrat';
+  margin-top:5%;
+}
+
+.mc4wp-form-fields input {
+  width:100%;
+}
+
+#mc4wp_form_widget-2 {
+  border:solid 1px #e3e1e1;
+  margin-left:2%;
+}
+
+.main-content .mc4wp-form-fields {
+  width:40%;
 }

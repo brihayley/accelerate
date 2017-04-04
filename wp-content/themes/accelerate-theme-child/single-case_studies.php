@@ -30,6 +30,7 @@ get_header(); ?>
                 <?php the_content(); ?>
 
                 <h4><a href="<?php echo $link ?>" target="_blank">Visit Live Site</a></h4>
+
             </aside>
 
             <div class="case-study-images">
